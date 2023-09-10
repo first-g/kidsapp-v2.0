@@ -34,7 +34,7 @@
 
     width: 680px;
     height: 800px;
-    background-image: url('../assets/main-image.png');
+    background-image: url('../../assets/main-image.png');
     background-repeat: no-repeat;
     background-position: 0%;
 
@@ -65,19 +65,19 @@
 }
 
 .main__button:nth-child(1) .main__button-image {
-    background-image: url('../assets/pages/animals.jpg');
+    background-image: url('../../assets/pages/animals.jpg');
 }
 
 .main__button:nth-child(2) .main__button-image {
-    background-image: url('../assets/pages/quiz.jpg');
+    background-image: url('../../assets/pages/quiz.jpg');
 }
 
 .main__button:nth-child(3) .main__button-image {
-    background-image: url('../assets/pages/alph.jpg');
+    background-image: url('../../assets/pages/alph.jpg');
 }
 
 .main__button:nth-child(4) .main__button-image {
-    background-image: url('../assets/pages/history.jpg');
+    background-image: url('../../assets/pages/history.jpg');
 }
 
 .main__button-text {

@@ -3,6 +3,9 @@ import './App.css'
 import Main from './components/Main/Main';
 import './scroll.css'
 import Animals from './components/Animals/Animals';
+import Alphabet from './components/Alphabet/Alphabet';
+import Tales from './components/Tales/Tales';
+import Quiz from './components/Quiz/Quiz';
 
 function App() {
 
@@ -21,6 +24,18 @@ function App() {
     {
       path: '/zhan',
       element: <Animals />
+    },
+    {
+      path: '/tamgalar',
+      element: <Alphabet />
+    },
+    {
+      path: '/zhomoktor',
+      element: <Tales />
+    },
+    {
+      path: '/test',
+      element: <Quiz />
     },
     // {
     //   path: '*',

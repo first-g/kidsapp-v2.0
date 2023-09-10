@@ -12,3 +12,7 @@
 body {
     font-family: 'My Font';
 }
+
+a {
+    text-decoration: none;
+}

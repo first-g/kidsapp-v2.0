@@ -11,7 +11,7 @@ const Tales = () => {
                     <div className="tales__circle"></div>
                     <div className="tales__content-section">
                         <div className="tales__title">
-                            <Link to='kidsapp-v2.0/' className="leave">
+                            <Link to='/' className="leave">
                                 <BsDoorOpenFill />
                             </Link>
                             <h1>Жомоктор</h1>

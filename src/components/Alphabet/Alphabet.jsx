@@ -11,7 +11,7 @@ const Alphabet = () => {
                     <div className="alphabet__circle"></div>
                     <div className="alphabet__content-section">
                         <div className="alphabet__title">
-                            <Link to='kidsapp-v2.0/' className="leave">
+                            <Link to='/' className="leave">
                                 <BsDoorOpenFill />
                             </Link>
                             <h1>Тамгалар</h1>

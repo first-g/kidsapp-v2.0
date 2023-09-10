@@ -13,19 +13,19 @@ const Main = () => {
                     </div>
 
                     <div className="main__right-section">
-                        <Link to='zhan' className="main__button">
+                        <Link to='/zhan' className="main__button">
                             <div className="main__button-image"></div>
                             <div className="main__button-text">Жаныбарлар</div>
                         </Link>
-                        <Link to='test' className="main__button">
+                        <Link to='/test' className="main__button">
                             <div className="main__button-image"></div>
                             <div className="main__button-text">Тест</div>
                         </Link>
-                        <Link to='tamgalar' className="main__button">
+                        <Link to='/tamgalar' className="main__button">
                             <div className="main__button-image"></div>
                             <div className="main__button-text">Тамгалар</div>
                         </Link>
-                        <Link to='zhomoktor' className="main__button">
+                        <Link to='/zhomoktor' className="main__button">
                             <div className="main__button-image"></div>
                             <div className="main__button-text">Жомоктор</div>
                         </Link>

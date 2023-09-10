@@ -18,30 +18,31 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: 'kidsapp-v2.0/',
+      path: '/',
       element: <Main />
     },
     {
-      path: 'kidsapp-v2.0/zhan',
+      path: '/zhan',
       element: <Animals />
     },
     {
-      path: 'kidsapp-v2.0/tamgalar',
+      path: '/tamgalar',
       element: <Alphabet />
     },
     {
-      path: 'kidsapp-v2.0/zhomoktor',
+      path: '/zhomoktor',
       element: <Tales />
     },
     {
-      path: 'kidsapp-v2.0/test',
+      path: '/test',
       element: <Quiz />
     },
     // {
     //   path: '*',
     //   element: Error Page
     // }
-  ])
+  ],
+  {basename: '/kidsapp-v2.0'})
 
   return (
     <>

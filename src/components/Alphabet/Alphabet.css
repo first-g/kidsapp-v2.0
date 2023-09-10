@@ -1,0 +1,56 @@
+.alphabet {
+    background: #EC5151;
+    height: 1220px;
+}
+
+.alphabet__body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.alphabet__circle {
+    position: absolute;
+    z-index: 0;
+    margin-top: 300px;
+    left: -200px;
+
+    width: 900px;
+    height: 900px;
+    background-color: #427DD6;
+    border-radius: 50%;
+}
+
+.alphabet__content-section {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.alphabet__title {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.alphabet__title .leave {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding-right: 100px;
+    font-size: 50px;
+    transition: all 0.2s ease;
+}
+
+.alphabet__title .leave:hover {
+    color: #000000;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+.alphabet__title h1 {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.71);
+    padding: 0px 20px;
+}

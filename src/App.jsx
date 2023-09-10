@@ -1,6 +1,8 @@
+import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 import './App.css'
 import Main from './components/Main/Main';
 import './scroll.css'
+import Animals from './components/Animals/Animals';
 
 function App() {
 
@@ -11,8 +13,25 @@ function App() {
     }
   }, { passive: false });
 
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main />
+    },
+    {
+      path: '/zhan',
+      element: <Animals />
+    },
+    // {
+    //   path: '*',
+    //   element: Error Page
+    // }
+  ])
+
   return (
-    <Main />
+    <>
+      <RouterProvider router={router} />
+    </>
   )
 }
 

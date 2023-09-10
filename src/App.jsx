@@ -18,23 +18,23 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: 'kidsapp-v2.0/',
       element: <Main />
     },
     {
-      path: '/zhan',
+      path: 'kidsapp-v2.0/zhan',
       element: <Animals />
     },
     {
-      path: '/tamgalar',
+      path: 'kidsapp-v2.0/tamgalar',
       element: <Alphabet />
     },
     {
-      path: '/zhomoktor',
+      path: 'kidsapp-v2.0/zhomoktor',
       element: <Tales />
     },
     {
-      path: '/test',
+      path: 'kidsapp-v2.0/test',
       element: <Quiz />
     },
     // {

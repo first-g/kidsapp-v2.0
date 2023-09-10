@@ -11,7 +11,7 @@ const Quiz = () => {
                     <div className="quiz__circle"></div>
                     <div className="quiz__content-section">
                         <div className="quiz__title">
-                            <Link to='/' className="leave">
+                            <Link to='kidsapp-v2.0/' className="leave">
                                 <BsDoorOpenFill />
                             </Link>
                             <h1>Тест</h1>

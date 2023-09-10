@@ -11,7 +11,7 @@ const Animals = () => {
                     <div className="animals__circle"></div>
                     <div className="animals__content-section">
                         <div className="animals__title">
-                            <Link to='/' className="leave">
+                            <Link to='kidsapp-v2.0/' className="leave">
                                 <BsDoorOpenFill />
                             </Link>
                             <h1>Жаныбарлар</h1>

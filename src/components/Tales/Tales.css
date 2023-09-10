@@ -1,3 +1,34 @@
+.kutman {
+    position: absolute;
+    border: 2px solid red;
+    color: rgb(69, 67, 67);
+    width: 500px;
+    height: 400px;
+    overflow: auto; 
+    left: 200px;
+    margin-top: 140px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 20px;
+    
+  }
+  .follo{
+    font-size: 40px;
+  }
+  .dadmom{
+    position: absolute;
+    left: 900px;
+    top: 500px;
+  }
+  .imgkutman{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 900px;
+    top: 180px;
+    border-radius: 20px 20px;
+  }
+  
 .tales {
     background: #ffffff;
     height: 1220px;
@@ -53,3 +84,5 @@
     background: #FF0000B5;
     padding: 0px 20px;
 }
+
+  

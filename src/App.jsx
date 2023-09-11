@@ -6,6 +6,7 @@ import Animals from './components/Animals/Animals';
 import Alphabet from './components/Alphabet/Alphabet';
 import Tales from './components/Tales/Tales';
 import Quiz from './components/Quiz/Quiz';
+import UrlError from './components/Error/UrlError';
 
 function App() {
 
@@ -37,12 +38,12 @@ function App() {
       path: '/test',
       element: <Quiz />
     },
-    // {
-    //   path: '*',
-    //   element: Error Page
-    // }
+    {
+      path: '*',
+      element: <UrlError />
+    }
   ],
-  {basename: '/kidsapp-v2.0'})
+    { basename: '/kidsapp-v2.0' })
 
   return (
     <>

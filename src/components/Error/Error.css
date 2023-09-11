@@ -1,0 +1,29 @@
+.error {
+    background-color: rgb(36, 36, 36);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 20px;
+}
+
+.error h1, a {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+}
+
+.error a {
+    padding: 0px 20px;
+    color: #FFF;
+    background-color: #EC5151;
+    border-radius: 20px;
+}
+
+.error a:hover {
+    background-color: #f06f6f;
+}

@@ -1,6 +1,6 @@
 .alphabet {
     background: #EC5151;
-    height: 1220px;
+    height: 100vh;
 }
 
 .alphabet__body {
@@ -9,7 +9,7 @@
 }
 
 .alphabet__circle {
-    position: absolute;
+    position: fixed;
     z-index: 0;
     margin-top: 300px;
     left: -200px;
@@ -24,6 +24,8 @@
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .alphabet__title {
@@ -53,4 +55,8 @@
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.71);
     padding: 0px 20px;
+}
+
+.alphabet__cards {
+    z-index: 1;
 }

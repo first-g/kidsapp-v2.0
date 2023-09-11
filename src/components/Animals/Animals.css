@@ -1,6 +1,6 @@
 .animals {
     background: #FFBF00;
-    height: 1220px;
+    height: 100vh;
 }
 
 .animals__body {
@@ -9,7 +9,7 @@
 }
 
 .animals__circle {
-    position: absolute;
+    position: fixed;
     z-index: 0;
     margin-top: 300px;
     left: -200px;
@@ -24,6 +24,8 @@
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .animals__title {
@@ -34,7 +36,7 @@
     align-items: center;
 }
 
-.animals__title .leave{
+.animals__title .leave {
     cursor: pointer;
     color: black;
     padding-right: 100px;
@@ -42,14 +44,18 @@
     transition: all 0.2s ease;
 }
 
-.animals__title .leave:hover{
+.animals__title .leave:hover {
     color: #ffffff;
     transform: scale(1.1);
     transition: all 0.2s ease;
 }
 
-.animals__title h1{
+.animals__title h1 {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.71);
     padding: 0px 20px;
+}
+
+.animals__cards {
+    z-index: 1;
 }

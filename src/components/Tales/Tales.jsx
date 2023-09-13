@@ -1,4 +1,5 @@
 import React from 'react'
+React
 import './Tales.css'
 import s from './s.mp3'
 import d from './das.jpg'

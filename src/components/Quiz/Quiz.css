@@ -1,5 +1,6 @@
 .quiz {
-    background: #EC5151;
+    /* background: #31cde4; */
+    background: #6959d2;
     height: 100vh;
 }
 
@@ -53,10 +54,106 @@
 
 .quiz__title h1 {
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.71);
+    background: rgba(164, 160, 160, 0.71);
     padding: 0px 20px;
 }
 
 .quiz__cards {
     z-index: 1;
+}
+.quiz__main{
+    border: 3px solid white;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 520px;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 400px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quiz__countTwo{
+    margin-left: -30px;
+    width: max-content;
+    margin-top: 5px;
+}
+.dt{
+    width: 100px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 460px;
+    background: none;
+    color: #ffffff;
+    font-size: 21px;
+    display: flex;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: 500ms;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.dt:hover{
+    background-color: #86e97b73;
+    transition: 500ms;
+}
+.quiz__text{
+    font-size: 22px;
+    font-weight: bold;
+}
+.quiz__answers{
+   display: flex;
+   flex-wrap: wrap;
+   width: 520px;
+   height: 300px;
+   margin-bottom: 10px;
+   
+}
+.quiz__count{
+
+}
+.quiz__result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100px;
+    margin-top: 100px;
+
+}
+/* .return{
+   width: 220px;
+   height: 30px;
+   background: rgba(117, 210, 117, 0.788);
+   border: none;
+   border-radius: 20px;
+} */
+
+.return{
+    width: 100px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 460px;
+    background: none;
+    color: #ffffff;
+    font-size: 21px;
+    display: flex;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: 500ms;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.return:hover{
+    background-color: #78f16ba4;
+    transition: 500ms;
+}
+.AnsIcon{
+    width: 30px;
 }

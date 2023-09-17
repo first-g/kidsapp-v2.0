@@ -7,8 +7,17 @@ import Alphabet from './components/Alphabet/Alphabet';
 import Tales from './components/Tales/Tales';
 import Quiz from './components/Quiz/Quiz';
 import UrlError from './components/Error/UrlError';
+import Loader from './components/Loader/Loader';
+import { useState } from 'react';
 
 function App() {
+  const [loader, setLoader] = useState(false);
+  const handleLoader = () => {
+    setLoader(true),
+    setTimeout(() => {
+      setLoader(false)
+    }, 3000)
+  }
 
   window.addEventListener("mousewheel", function (e) {
     if (e.ctrlKey) {
@@ -20,7 +29,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <Main />
+      element: <Main handleLoader={handleLoader}/>
     },
     {
       path: '/zhan',
@@ -47,7 +56,8 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      {loader && <Loader />}
+      {!loader && <RouterProvider router={router} />}
     </>
   )
 }

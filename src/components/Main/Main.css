@@ -28,25 +28,14 @@
 }
 
 .main__image {
-    z-index: 1;
-    position: absolute;
-    left: 150px;
-
-    width: 680px;
-    height: 800px;
-    background-image: url('../../assets/main-image.png');
-    background-repeat: no-repeat;
-    background-position: 0%;
-
-    transition: all 1s ease;
-    animation: image-animate 3s infinite;
+    position: fixed;
 }
 
 .main__right-section {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 180px;
+    margin-top: 80px;
     margin-right: 100px;
 }
 

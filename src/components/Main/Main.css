@@ -36,7 +36,7 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 80px;
-    margin-right: 100px;
+    margin-right: 170px;
 }
 
 .main__button {
@@ -44,6 +44,7 @@
 
     display: flex;
     align-items: center;
+    transition: 0.5s ease-in-out all;
 }
 
 .main__button-image {
@@ -86,6 +87,8 @@
 .main__button:hover {
     background: rgba(255, 255, 255, 0.391);
     border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out all;
 }
 
 @keyframes image-animate {

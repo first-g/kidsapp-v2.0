@@ -1,177 +1,85 @@
-h2{
-    color: rgb(252, 245, 245);
-    font-size: 60px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-p{
-    color: rgb(241, 241, 241);
-    font-size: 30px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.test{
-    background-color: aqua;
-    width: 200px;
-    height: 200px;
-    border-radius: 50px 50px;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aqua;
-}
-.test:hover{
-    background-color: red;
-    border-radius: 50%;
-    color: rgb(72, 255, 0);
-}
-.cd{
-display: flex;
-justify-content: space-between;
-width: 500px;
-margin-left: 32%;
-margin-top: 200px;
-}
-.qwer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 1300px;
-    font-size: 50px;
-
-}
-.cont{
-    display: flex;
-    justify-content: center;
-    
-}
-.sad{
-    display: flex;
-    cursor: pointer;
-    background-color: blue;
-    color: white;
-    border-radius: 10px 1px;
-    font-size: 20px;
-    margin-left: 35%;
-    
-}
-span{
-    color: rgb(81, 5, 246);
-    font-size: 80px;
-    margin-left: 30%;
-}
-.cat{
-    cursor: pointer;
-    width: 450px;
-    height: 350px;
-}
-.sad:hover{
-    box-shadow: 0 1px 5px;
-}
-.dt{
-    cursor: pointer;
-    margin: 10px;
- border-radius: 10px 10px;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(53, 17, 232);
-    color: white;
-    font-size: 19px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.dt:hover{
-    box-shadow: 0 1px 0 5px;
-}
-h1{
-    cursor: pointer;
-    text-align: center;
-    width: 120px;
-    height: 120px;
-    color: rgb(234, 10, 10);
-    border: 5px solid rgb(0, 36, 128);
-    margin: 15px;
-    background-color: rgb(227, 252, 4);
-}
-h1:hover{
-    color: rgb(0, 225, 255);
-    box-shadow: 0px 1px 0px 5px orange;
-}
-.btn{
-    cursor: pointer;
-    background-color: aqua;
-    background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 50px 50px;
-    width: 200px;
-    height: 200px;
-    color: black;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aqua;
-}
-.btn:hover{
- background-color: red;
- color: rgb(14, 250, 2);
-    border-radius: 50%;
-
-}
 .alphabet {
-    background: #EC5151;
-    height: 100vh;
+  background: #ec5151;
+  height: 280vh;
 }
 
 .alphabet__body {
-    max-width: 1600px;
-    margin: 0 auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .alphabet__circle {
-    position: fixed;
-    z-index: 0;
-    margin-top: 300px;
-    left: -200px;
+  position: fixed;
+  z-index: 0;
+  margin-top: 300px;
+  left: -200px;
 
-    width: 900px;
-    height: 900px;
-    background-color: #427DD6;
-    border-radius: 50%;
+  width: 900px;
+  height: 900px;
+  background-color: #427dd6;
+  border-radius: 50%;
 }
 
 .alphabet__content-section {
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .alphabet__title {
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 40px;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .alphabet__title .leave {
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    padding-right: 100px;
-    font-size: 50px;
-    transition: all 0.2s ease;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding-right: 100px;
+  font-size: 50px;
+  transition: all 0.2s ease;
 }
 
 .alphabet__title .leave:hover {
-    color: #000000;
-    transform: scale(1.1);
-    transition: all 0.2s ease;
+  color: #000000;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
 }
 
 .alphabet__title h1 {
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.71);
-    padding: 0px 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.71);
+  padding: 0px 20px;
 }
 
 .alphabet__cards {
-    z-index: 1;
+  z-index: 1;
+  padding: 50px 80px;
+}
+
+.qwer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.qwer div {
+  background-color: #ec5151;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.qwer h1 {
+  font-size: 90px;
+  color: #fff;
+  text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
 }

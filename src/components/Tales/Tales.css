@@ -1,6 +1,6 @@
 .tales {
     background: #FFBF00;
-    height: 100vh;
+    height: 110vh;
 }
 
 .tales__body {
@@ -60,7 +60,7 @@
 
 .tales__cards {
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,11 +87,6 @@
 .kutman p{
     font-size: 25px;
     letter-spacing: 0.1em;
-}
-
-.imgkutman {
-    width: 400px;
-    height: 200px;
 }
 
 .kutman__assets {

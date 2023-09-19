@@ -16,7 +16,7 @@ function App() {
     setLoader(true),
     setTimeout(() => {
       setLoader(false)
-    }, 3000)
+    }, 2000)
   }
 
   window.addEventListener("mousewheel", function (e) {
